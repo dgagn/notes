@@ -44,22 +44,22 @@ Ensuite j'utilise la commande `tree` pour visionner le contenu de son dossier. O
 le fichier *shared-folders-vmware.md* est présent, car je l'ai ajouté depuis mon ordinateur windows.
 (host)
 
-![](./assets/vmware_kg69MiCo4Z.png)
+![](../../../Documents/ShareX/Screenshots/2021-10/vmware_kg69MiCo4Z.png)
 
 *Figure 4 - Montre le répertoire partagé sur la machine virtuelle*
 
-![](./assets/explorer_mw4sNq05b2.png)
+![](../../../Documents/ShareX/Screenshots/2021-10/explorer_mw4sNq05b2.png)
 
 *Figure 5 - Montre le répertoire partagé sur le host (Windows)*
 
 Je vais maintenant créer un fichier avec la commande `touch` pour prouvé que les fichier sont transférer
 du linux au Host par le dossier partagé.
 
-![](./assets/vmware_UGUrytAf26.png)
+![](../../../Documents/ShareX/Screenshots/2021-10/vmware_UGUrytAf26.png)
 
 *Figure 6 - Création d'un fichier from-linux.md*
 
-![](./assets/explorer_gob8mfHzJu.png)
+![](../../../Documents/ShareX/Screenshots/2021-10/explorer_gob8mfHzJu.png)
 
 *Figure 7 - Montre que le fichier est bien présent sur le host*
 
@@ -73,22 +73,22 @@ On se connect à la machine avec les hostname@\<ip>
 u1679863@192.168.80.129
 ```
 
-![](./assets/WinSCP_C2Rlf2GllM.png)
+![](../../../Documents/ShareX/Screenshots/2021-10/WinSCP_C2Rlf2GllM.png)
 
 *Figure 8 - Montre que la connection a été établie sur le host*
 
 
-![](./assets/WinSCP_N5A4uyo9d2.png)
+![](../../../Documents/ShareX/Screenshots/2021-10/WinSCP_N5A4uyo9d2.png)
 
 *Figure 9 - Montre que j'ai accès au fichier de la VM par SCP*
 
 Je vais transférer le fichier `copie.txt` de mon Windows à mon Linux
 
-![](./assets/UbKMwpgRUK.png)
+![](../../../Documents/ShareX/Screenshots/2021-10/UbKMwpgRUK.png)
 
 *Figure 10 - Le fichier de base sur le host*
 
-![](./assets/webstorm64_mjpUjbw9vC.png)
+![](../../../Documents/ShareX/Screenshots/2021-10/webstorm64_mjpUjbw9vC.png)
 
 *Figure 11 - Le fichier sur la machine virtuelle aussi*
 
