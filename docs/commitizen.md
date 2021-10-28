@@ -1,3 +1,8 @@
+---
+title: Commitizen
+author: Dany Gagnon
+colorlinks: true
+---
 ## Commitizen
 
 Commitizen is very important to keep your
@@ -7,12 +12,9 @@ cz
 ```
 That command brings a menu to help the user commit with the [angular]() convention.
 
-![alt](../assets/commitizen.png)
-
-*Figure 1 - image showing cz command in action*
+![Image showing cz command in action](../assets/commitizen.png)
 
 To install the `cz` command in a project, simply run the command -
 ```console
 commitizen init cz-conventional-changelog --yarn --dev --exact
-
 ```
